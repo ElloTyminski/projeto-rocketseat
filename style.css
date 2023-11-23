@@ -34,8 +34,7 @@ body {
   /* jeito mais facil!! : */
   /* background: color image repeat position/size */
   background: var(--bg-url) no-repeat top center/cover;
-  height: 100vh;
-  /* viewport height  */
+  height: 100vh; /* viewport height  */
 }
 
 /* modificando a imagem de fundo baseada no tamanho do dispositivo  */
@@ -91,11 +90,11 @@ body * {
 
   position: absolute; /* faz uma sobreposição de camadas */
   z-index: 1; /* mudando a posiçao nas camadas */
-  
+
   /* deixando no centro do span:  */
   left: 0;
   top: 50%;
-  transform: translateY(-50%)
+  transform: translateY(-50%);
 }
 /* fazendo a transiçao do botao de dark pra light */
 .light #switch button {

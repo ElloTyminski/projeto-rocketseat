@@ -1,6 +1,7 @@
 # DevLinks
 
 ## Links da Desenvolvedora!
+https://github.com/ElloTyminski
 
 ### Dependencias
 

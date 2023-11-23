@@ -1,7 +1,7 @@
 # DevLinks
 
 ## Links da Desenvolvedora!
-https://github.com/ElloTyminski
+https://ElloTyminski.github.io/projeto-rocketseat
 
 ### Dependencias
 

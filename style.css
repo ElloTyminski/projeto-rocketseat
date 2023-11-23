@@ -95,11 +95,16 @@ body * {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
+  animation: slide-back .3s;
 }
 /* fazendo a transiçao do botao de dark pra light */
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in .4s forwards;
+
+}
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
 }
 
 #switch span {
@@ -190,3 +195,22 @@ footer {
   }
 }
 /* isso td só funciona se tiver a linha "<meta name="viewport" content="width=device-width, initial-scale=1.0" />" */
+
+/* animation  */
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
+}

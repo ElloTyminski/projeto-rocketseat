@@ -2,7 +2,7 @@
 
 ## Links da Desenvolvedora!
 
-### Dependencies
+### Dependencias
 
 * Windows 11
 
@@ -12,11 +12,11 @@
 - JavaScript
 - Git e Github
 
-## Authors
+## Autores
 
 - Rocketseat
 
-## Version History
+## Histórico de Versão
 
 * 1.0
     * Initial Release
